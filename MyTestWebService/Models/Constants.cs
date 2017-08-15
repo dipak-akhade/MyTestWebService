@@ -8,6 +8,6 @@ namespace MyTestWebService.Models
 {
     public class Constants
     {
-        public static string conn  = "server=localhost;uid=root;pwd=root;database=newcompanydatabase;Allow Zero Datetime=True;";
+        public static string conn  = "server=localhost;uid=root;pwd=avendata;database=newcompanydatabase;Allow Zero Datetime=True;";
     }
 }

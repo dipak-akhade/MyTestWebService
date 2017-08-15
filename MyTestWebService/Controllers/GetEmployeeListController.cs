@@ -22,7 +22,7 @@ namespace MyTestWebService.Controllers
             
             string q = "select uid,fname,lname from nworksuser where _type='Employee' or _type='Admin_Employee' ;";
             MySqlCommand cmd = new MySqlCommand(q,conn);
-            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd); ;
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd); 
             conn.Open();
             adapter.Fill(dt);
 
